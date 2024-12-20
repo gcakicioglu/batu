@@ -34,7 +34,5 @@ foreach ($result as $row)
 <script src="assets/js/bootstrap-touch-slider.js"></script>
 <script src="assets/js/select2.full.min.js"></script>
 <script src="assets/js/custom.js"></script>
-
-<?php echo $before_body; ?>
 </body>
 </html>

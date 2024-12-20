@@ -80,13 +80,13 @@ foreach ($result as $row)
     <!-- Slider Left Control -->
     <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
         <span class="fa fa-angle-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only">Önceki</span>
     </a>
 
     <!-- Slider Right Control -->
     <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
         <span class="fa fa-angle-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only">Sonraki</span>
     </a>
 
 </div>
@@ -149,10 +149,10 @@ foreach ($result as $row)
                             <div class="text">
                                 <h3><a href="product.php?id=<?php echo $row['p_id']; ?>"><?php echo $row['p_name']; ?></a></h3>
                                 <h4>
-                                    $<?php echo $row['p_current_price']; ?> 
+                                    <?php echo $row['p_current_price']; ?> TL
                                     <?php if($row['p_old_price'] != ''): ?>
                                     <del>
-                                        $<?php echo $row['p_old_price']; ?>
+                                        <?php echo $row['p_old_price']; ?> TL
                                     </del>
                                     <?php endif; ?>
                                 </h4>
@@ -229,11 +229,11 @@ foreach ($result as $row)
                                 <?php if($row['p_qty'] == 0): ?>
                                     <div class="out-of-stock">
                                         <div class="inner">
-                                            Out Of Stock
+                                            Stoklar Tükendi
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Sepete Ekle</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>
@@ -278,10 +278,10 @@ foreach ($result as $row)
                             <div class="text">
                                 <h3><a href="product.php?id=<?php echo $row['p_id']; ?>"><?php echo $row['p_name']; ?></a></h3>
                                 <h4>
-                                    $<?php echo $row['p_current_price']; ?> 
+                                    <?php echo $row['p_current_price']; ?> TL
                                     <?php if($row['p_old_price'] != ''): ?>
                                     <del>
-                                        $<?php echo $row['p_old_price']; ?>
+                                        <?php echo $row['p_old_price']; ?> TL
                                     </del>
                                     <?php endif; ?>
                                 </h4>
@@ -357,11 +357,11 @@ foreach ($result as $row)
                                 <?php if($row['p_qty'] == 0): ?>
                                     <div class="out-of-stock">
                                         <div class="inner">
-                                            Out Of Stock
+                                            Stoklar Tükendi
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Sepete Ekle</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>
@@ -409,10 +409,10 @@ foreach ($result as $row)
                             <div class="text">
                                 <h3><a href="product.php?id=<?php echo $row['p_id']; ?>"><?php echo $row['p_name']; ?></a></h3>
                                 <h4>
-                                    $<?php echo $row['p_current_price']; ?> 
+                                    <?php echo $row['p_current_price']; ?> TL
                                     <?php if($row['p_old_price'] != ''): ?>
                                     <del>
-                                        $<?php echo $row['p_old_price']; ?>
+                                        <?php echo $row['p_old_price']; ?> TL
                                     </del>
                                     <?php endif; ?>
                                 </h4>
@@ -488,11 +488,11 @@ foreach ($result as $row)
                                 <?php if($row['p_qty'] == 0): ?>
                                     <div class="out-of-stock">
                                         <div class="inner">
-                                            Out Of Stock
+                                            Stoklar Tükendi
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Sepete Ekle</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>
